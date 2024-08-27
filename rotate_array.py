@@ -1,9 +1,8 @@
 """
-Rotate Array
-Given an integer array nums, rotate the array to the right by k steps, where k 
-is non-negative.
+Rotate Array:
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
- Example 1:
+Example 1:
 Input: nums = [1,2,3,4,5,6,7], k = 3
 Output: [5,6,7,1,2,3,4]
 Explanation:
@@ -26,9 +25,10 @@ Constraints:
  
 
 Follow up:
-Try to come up with as many solutions as you can. There are at least three different
-ways to solve this problem.
-Could you do it in-place with O(1) extra space?"""
+Try to come up with as many solutions as you can. There are at least three different ways to solve this problem.
+Could you do it in-place with O(1) extra space?
+"""
+
 class Solution(object):
     def rotate(self, nums, k):
       # k = 0
